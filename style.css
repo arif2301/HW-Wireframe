@@ -1,16 +1,92 @@
+/** css file for first assignment **/
+
 *, *::after, *::before {
     box-sizing: border-box;
   }
 
+  body {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777;
+    background-color: #777;
+    width: 960px;
+    font-size: 18px;
 
+  }
+  
 .container {
-    margin: 0 auto;
-    margin-top: 50px;
+    /** margin: 0 auto; **/
+    margin-top: 10px;
+    margin-left: 100px;
+    margin-bottom: 75px;
     width: 1000px;
-    color: 
-    font-size: 1.25em;
+    text-align: center;
+
   }
 
   header {
-      background-color: 
+    background-color:#ebebeb;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid #777;
   }
+  
+  section {
+    background-color:#ebebeb;
+    width: 498px;
+    height: 400px;
+    padding: 10px;
+    border: 5px solid #777;
+    float: left;
+
+  }
+
+  p {
+    padding: 20px;
+    margin: 20px;
+    background-color: #777;
+    width: 398px;
+   /** height: 200px;**/
+    color: #ebebeb;
+  }
+  /** I was unsuccessful in creating the 2 smaller 
+  boxes within the article. **/
+  #division {
+    padding: 2px;
+    margin-top: 2px;
+    background:  #ebebeb;
+  }
+
+  /**
+  h2, h3 {
+    /**padding: 10px red;
+    margin-top: 10px; ===
+    margin: 20px;
+    background-color: blue;
+  }
+  **/
+
+  aside {
+    background-color:#ebebeb;
+    width: 480px;
+    height: 400px;
+    padding: 10px;
+    border: 5px solid #777;
+    float: right;
+  }
+  
+   
+  footer {
+    background-color:#ebebeb;
+    width: 1000px;
+    height: 100px;
+    padding: 10px;
+    border: 5px solid #777;
+  }
+
+  .clearfix::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+  
